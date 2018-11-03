@@ -28,6 +28,7 @@ enter the range you want1000
 #was defined as 0, not 234168. and adding a ans
 
 #edit2 I got it, but it's not super pretty, pretty patchy in fact. the following.
+#i avoided iteration by 'back-indenting' so that ans=z-i occurs not in the loop, only once the loop has finished, which is naive.
 VVV
 >>> x=0
 >>> z=0
