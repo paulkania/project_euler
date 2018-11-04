@@ -5,7 +5,7 @@
 	while x<=4000000:
 		if x%2==0:
 			ans+=x		###using += is sexier than ans=ans+x (both work, confirmed)
-		x,y=y,x+y		###for simultaneous updating (rather than dominoe updating)
+		x,y=y,x+y###for simultaneous updating (rather than dominoe updating). or you can add a dummy variable to avoid a dominoe (q=x+y;x=y;y=q)
 	return(str(ans))		###not just just return(ans)??A:__both work,confirmed.
 
 >>> if __name__ == "__main__":		###why.
